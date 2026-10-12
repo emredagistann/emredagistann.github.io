@@ -3,9 +3,9 @@
 # Where: the ROOT of the developer website you enter in both store listings, e.g.
 #   https://<your-site>/app-ads.txt        (not in a sub-folder; plain text; HTTP 200)
 #
-# What: replace the placeholder block below with the lines from the LevelPlay dashboard:
-#   LevelPlay (platform.ironsrc.com or cloud.unity.com → LevelPlay) → Settings / Monetize →
-#   "app-ads.txt" → copy all lines (they cover ironSource / Unity Ads and every network you turn on).
+# Live copy: https://emredagistann.github.io/app-ads.txt (2026-10-12; registered in cloud.unity.com).
+# What: the lines from cloud.unity.com → Setup → Organization Settings → App-ads.txt → Show full list
+#   (organization-wide: one file for iOS and Android).
 # Re-copy them whenever you enable a new ad network (AdMob, AppLovin …) — each network adds its own lines.
 #
 # Format of every line: <ad system domain>, <your publisher id>, DIRECT|RESELLER[, <certification id>]

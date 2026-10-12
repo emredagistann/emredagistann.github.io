@@ -41,6 +41,10 @@
     ul { padding-left: 20px; }
     a { color: var(--accent); }
     footer { color: var(--muted); font-size: 0.9rem; text-align: center; padding: 32px 0 48px; }
+    a { overflow-wrap: anywhere; }
+    header .wrap { flex-wrap: wrap; gap: 8px; }
+    nav a:first-child { margin-left: 0; }
+    @media (max-width: 480px) { nav a { margin-left: 0; margin-right: 14px; } .card { padding: 20px; } .hero h1 { font-size: 2rem; } }
   </style>
 </head>
 <body>
@@ -50,6 +54,7 @@
       <nav>
         <a href="#game">Game</a>
         <a href="#contact">Contact</a>
+        <a href="/privacy">Privacy</a>
       </nav>
     </div>
   </header>
@@ -57,27 +62,30 @@
   <main class="wrap">
     <section class="hero">
       <h1>Idle <span>Defence</span></h1>
-      <p>Build your towers, upgrade your defences and hold back endless waves of enemies — even while you're away.</p>
+      <p>Defend your base, grow your power across five skill trees and hold back endless waves of enemies — even while you're away.</p>
     </section>
 
     <section class="card" id="game">
       <h2>About the game</h2>
-      <p>Idle Defence is a casual idle tower defence game for mobile. Place and upgrade towers, unlock new abilities and watch your defences grow stronger over time.</p>
+      <p>Idle Defence is an idle tower defence game for iOS and Android. Your cannon holds the line while you shape it with fire, water, earth and air, collect gear and prestige for permanent power.</p>
       <ul>
-        <li>Simple, satisfying tower defence gameplay</li>
+        <li>Five skill trees with active skills, keystones and masteries</li>
+        <li>Items in six slots with element sets and special effects</li>
+        <li>Prestige for shards and a permanent upgrade tree</li>
         <li>Idle progress — earn rewards while offline</li>
-        <li>Lots of upgrades to unlock</li>
+        <li>Ads only when you choose to watch one</li>
       </ul>
     </section>
 
     <section class="card" id="contact">
       <h2>Contact</h2>
-      <p>For support, feedback or business inquiries, please reach out via the contact details listed on our store page.</p>
+      <p>For support, feedback, data deletion requests or business inquiries, email <a href="mailto:papatsugames@gmail.com">papatsugames@gmail.com</a>.</p>
+      <p><a href="/privacy">Privacy Policy</a></p>
     </section>
   </main>
 
   <footer>
-    &copy; 2026 Papatsu. All rights reserved.
+    &copy; 2026 Papatsu · <a href="/privacy">Privacy Policy</a>
   </footer>
 </body>
 </html>
