@@ -13,6 +13,7 @@
 
 # ---- paste the LevelPlay lines below this line ----
 unity.com, 12959073, DIRECT, 96cabb5fbdde37a7
+google.com, pub-9987647200593683, DIRECT, f08c47fec0942fa0
 bluexad.ai, 1996418805747683328, RESELLER
 conversantmedia.com, 41024, RESELLER, 03113cd04947736d
 e-planning.net, 79ded3cfca3d3b78, RESELLER, c1ba615865ed87b2
